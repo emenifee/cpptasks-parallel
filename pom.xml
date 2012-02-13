@@ -3,7 +3,7 @@
 
   <groupId>net.sf.antcontrib</groupId>
   <artifactId>cpptasks-parallel</artifactId>
-  <version>1.0-beta-5-parallel-1-SNAPSHOT</version>
+  <version>1.0-beta-5-parallel-ecm2-SNAPSHOT</version>
 
   <name>CPPTasks (parallel)</name>
   <description>
@@ -21,9 +21,9 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:git://github.com/duns/cpptasks-parallel.git</connection>
-    <developerConnection>scm:git:git://github.com/duns/cpptasks-parallel.git</developerConnection>
-    <url>http://github.com/duns/cpptasks-parallel</url>
+    <connection>scm:git:git://github.com/emenifee/cpptasks-parallel.git</connection>
+    <developerConnection>scm:git:git://github.com/emenifee/cpptasks-parallel.git</developerConnection>
+    <url>http://github.com/emenifee/cpptasks-parallel</url>
   </scm>
   
   <properties>
@@ -31,9 +31,10 @@
   </properties>
 
 <!-- to avoid MDEPLOY-50 and to deploy to duns' github repository -->
+<!--
 <distributionManagement>
   <repository>
-    <id>duns-maven-releases</id>
+    <id>emenifee-maven-releases</id>
     <name>Duns' Maven Releases</name>
     <url>file:///Users/duns/sonatype/git/maven-releases</url>
   </repository>
@@ -44,6 +45,7 @@
     <url>file:///Users/duns/sonatype/git/maven-snapshots</url>
   </snapshotRepository>
 </distributionManagement>
+-->
 
   <build>
     <defaultGoal>install</defaultGoal>
@@ -52,8 +54,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>2.3.2</version>
         <configuration>
-          <source>1.4</source>
-          <target>1.4</target>
+          <source>1.7</source>
+          <target>1.7</target>
           <optimize>true</optimize>
         </configuration>
       </plugin>
