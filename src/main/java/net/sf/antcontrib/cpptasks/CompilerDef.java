@@ -505,7 +505,7 @@ public final class CompilerDef extends ProcessorDef {
     // FREEHEP
 	/**
 	 * List of source filenames without extensions
-	 * @param asList
+	 * @param order
 	 */
 	public void setOrder(List/*<String>*/ order) {
 		this.order = order;
@@ -515,3 +515,6 @@ public final class CompilerDef extends ProcessorDef {
 		return order;
 	}
 }
+// ChangeLog ECM:
+// 2012-FEB-12
+// Updated javadoc on line 508 to make param asList match parameter name order

@@ -60,13 +60,13 @@ public final class DependencyInfo {
         includes.copyInto(this.includes);
         sysIncludes.copyInto(this.sysIncludes);
     }
-    /**
-     * Returns the latest modification date of the source or anything that it
-     * depends on.
-     * 
-     * @returns the composite lastModified time, returns Long.MIN_VALUE if not
-     * set
-     */
+//    /**
+//     * Returns the latest modification date of the source or anything that it
+//     * depends on.
+//     * 
+//     * @return the composite lastModified time, returns Long.MIN_VALUE if not
+//     * set
+//     */
 // BEGINFREEHEP
 //    public long getCompositeLastModified() {
 //        return compositeLastModified;
@@ -108,3 +108,6 @@ public final class DependencyInfo {
 //    }
 // ENDFREEHEP
 }
+// ChangeLog ECM:
+// 2012-FEB-12
+// Commented out JavaDoc lines 63-69 to remove bad docs on commented out code
