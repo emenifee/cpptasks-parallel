@@ -1,3 +1,9 @@
+Elijah C. Menifee's custom version of cpptasks:
+All files modified with a changelog at the bottom.
+
+Currently working on cpptasks-1.0-beta-5-parallel-ecm2-SNAPSHOT
+
+PRIOR README.txt from fork follows:
 Modified version of ant contrib cpptasks, used in the freehep/maven-nar-plugin.
 
 *** ALL Changes marked with FREEHEP or BEGINFREEHEP-ENDFREEHEP.
